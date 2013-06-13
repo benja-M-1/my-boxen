@@ -29,7 +29,7 @@ end
 # Includes many of our custom types and providers, as well as global
 # config. Required.
 
-github "boxen", "3.3.4"
+github "boxen", "3.3.4",  :repo => "benja-M-1/puppet-boxen"
 
 # Core modules for a basic development environment. You can replace
 # some/most of these if you want, but it's not recommended.
@@ -55,3 +55,25 @@ github "xquartz",    "1.1.0"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
+
+github "alfred",      "1.1.0"
+github "onepassword", "1.0.1"
+github "chrome",      "1.1.0"
+github "iterm2",      "1.0.2"
+github "sublime_text_2", "1.1.1"
+github "vim",         "1.0.4"
+github "vagrant",     "2.0.7"
+github "dropbox",     "1.1.0"
+github "caffeine",    "1.0.0"
+github "spotify",     "1.0.0"
+github "phpstorm",    "1.0.3"
+github "googledrive", "1.0.2"
+github "mou",         "1.0.0"
+github "adium",       "1.1.1"
+github "sequel_pro",  "1.0.0"
+github "skype",       "1.0.2"
+github "transmission", "1.0.0"
+github "virtualbox",  "1.0.3"
+github "zsh",         "1.0.0"
+github "ohmyzsh",     "1.0.0", :repo => "samjsharpe/puppet-ohmyzsh"
+github "viscosity",   "1.0.0"
